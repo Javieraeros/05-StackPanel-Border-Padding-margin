@@ -7,6 +7,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
@@ -25,6 +26,7 @@ namespace _05_StackPanel_Border_Padding_margin
         public MainPage()
         {
             this.InitializeComponent();
+            ApplicationView.GetForCurrentView().SetPreferredMinSize(new Windows.Foundation.Size(200, 150));
         }
     }
 }

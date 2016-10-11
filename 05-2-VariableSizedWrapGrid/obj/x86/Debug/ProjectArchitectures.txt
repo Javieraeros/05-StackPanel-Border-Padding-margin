@@ -1,0 +1,1 @@
+C:\Users\fjrodriguez\Documents\GitHub\05-StackPanel Border,Padding margin\05-2-VariableSizedWrapGrid\05-2-VariableSizedWrapGrid.csproj;x86

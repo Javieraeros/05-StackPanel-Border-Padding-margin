@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-StackPanel Border,Padding margin", "05-StackPanel Border,Padding margin\05-StackPanel Border,Padding margin.csproj", "{FE4DDDA0-B29B-4FF6-BC1E-0DDC197E0473}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-2-VariableSizedWrapGrid", "05-2-VariableSizedWrapGrid\05-2-VariableSizedWrapGrid.csproj", "{BC29A40E-FDE5-407D-9808-FE4C6039420B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{FE4DDDA0-B29B-4FF6-BC1E-0DDC197E0473}.Release|x86.ActiveCfg = Release|x86
 		{FE4DDDA0-B29B-4FF6-BC1E-0DDC197E0473}.Release|x86.Build.0 = Release|x86
 		{FE4DDDA0-B29B-4FF6-BC1E-0DDC197E0473}.Release|x86.Deploy.0 = Release|x86
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|ARM.Build.0 = Debug|ARM
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|x64.ActiveCfg = Debug|x64
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|x64.Build.0 = Debug|x64
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|x64.Deploy.0 = Debug|x64
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|x86.ActiveCfg = Debug|x86
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|x86.Build.0 = Debug|x86
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Debug|x86.Deploy.0 = Debug|x86
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|ARM.ActiveCfg = Release|ARM
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|ARM.Build.0 = Release|ARM
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|ARM.Deploy.0 = Release|ARM
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|x64.ActiveCfg = Release|x64
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|x64.Build.0 = Release|x64
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|x64.Deploy.0 = Release|x64
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|x86.ActiveCfg = Release|x86
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|x86.Build.0 = Release|x86
+		{BC29A40E-FDE5-407D-9808-FE4C6039420B}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
