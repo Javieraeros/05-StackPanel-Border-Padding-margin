@@ -8,14 +8,25 @@ namespace _04_Grid_Formulario.Models
 {
     class Persona
     {
-        private string nombre { get; set; }
-        private string apellidos { get; set; }
-        private DateTimeOffset fechaNac { get; set; }
+        private string nombre;
+        private string apellidos;
+        private DateTimeOffset fechaNac;
+
+        public string Nombre { get; set; }
+        public string Apellidos { get; set; }
+        public DateTimeOffset FechaNac { get; set; }
 
         public Persona(){
             nombre = "";
             apellidos = "";
             fechaNac = new DateTimeOffset();
             }
+
+        public Persona(string nombre, string apellidos, DateTimeOffset fechaNac)
+        {
+            this.nombre = nombre;
+            this.apellidos = apellidos;
+            this.fechaNac = fechaNac;
+        }
     }
 }
