@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-2-VariableSizedWrapGrid"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-03-Relative Panel", "05-03-Relative Panel\05-03-Relative Panel.csproj", "{D8E67291-E7B6-4397-AC68-89555288BBED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-03-Grid Formulario", "04-Grid Formulario\05-03-Grid Formulario.csproj", "{5C80A334-E47B-4812-9F8D-05373A1706A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -73,6 +75,24 @@ Global
 		{D8E67291-E7B6-4397-AC68-89555288BBED}.Release|x86.ActiveCfg = Release|x86
 		{D8E67291-E7B6-4397-AC68-89555288BBED}.Release|x86.Build.0 = Release|x86
 		{D8E67291-E7B6-4397-AC68-89555288BBED}.Release|x86.Deploy.0 = Release|x86
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|ARM.Build.0 = Debug|ARM
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|x64.ActiveCfg = Debug|x64
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|x64.Build.0 = Debug|x64
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|x64.Deploy.0 = Debug|x64
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|x86.ActiveCfg = Debug|x86
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|x86.Build.0 = Debug|x86
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Debug|x86.Deploy.0 = Debug|x86
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|ARM.ActiveCfg = Release|ARM
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|ARM.Build.0 = Release|ARM
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|ARM.Deploy.0 = Release|ARM
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|x64.ActiveCfg = Release|x64
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|x64.Build.0 = Release|x64
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|x64.Deploy.0 = Release|x64
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|x86.ActiveCfg = Release|x86
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|x86.Build.0 = Release|x86
+		{5C80A334-E47B-4812-9F8D-05373A1706A8}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
