@@ -24,29 +24,29 @@ namespace _04_Grid_Formulario.Models
         {
             DateTimeOffset hoy = DateTimeOffset.Now;
             string[] resultado= {"","",""};
-            if (string.IsNullOrEmpty(p.Nombre) || p.Nombre.Length<2)
+            if (string.IsNullOrEmpty(p.nombre) || p.nombre.Length<2)
             {
                 resultado[0] = "Error, el nombre debe contener al menos dos letras";
             }else
             {
-                if (p.Nombre.ToCharArray()[0]==' ')
+                if (p.nombre.ToCharArray()[0]==' ')
                 {
                     resultado[0] = "Error, la primera letra no puede ser un espacio";
                 }
             }
 
-            if (string.IsNullOrEmpty(p.Apellidos) || p.Apellidos.Length <= 4)
+            if (string.IsNullOrEmpty(p.apellidos) || p.apellidos.Length <= 4)
             {
                 resultado[1] = "Error, los apellidos deben tener al menos 5 letras";
             }else
             {
-                if(!p.Apellidos.Contains(" "))
+                if(!p.apellidos.Contains(" "))
                 {
                     resultado[1] = "Error, debe poner dos apellidos separados por un espacio";
                 }
             }
 
-            if(p.FechaNac>hoy)
+            if(p.fechaNac>hoy)
             {
                 resultado[2] = "Error, la fecha de nacimiento debe ser anterior o igual a hoy mismo";
             }
@@ -73,35 +73,35 @@ namespace _04_Grid_Formulario.Models
             DateTimeOffset hoy = DateTimeOffset.Now;
             string[] resultado = { "", "", "" };
             errores = 0;
-            if (string.IsNullOrEmpty(p.Nombre) || p.Nombre.Length < 2)
+            if (string.IsNullOrEmpty(p.nombre) || p.nombre.Length < 2)
             {
                 resultado[0] = "Error, el nombre debe contener al menos dos letras";
                 errores = 1;
             }
             else
             {
-                if (p.Nombre.ToCharArray()[0] == ' ')
+                if (p.nombre.ToCharArray()[0] == ' ')
                 {
                     resultado[0] = "Error, la primera letra no puede ser un espacio";
                     errores = 1;
                 }
             }
 
-            if (string.IsNullOrEmpty(p.Apellidos) || p.Apellidos.Length <= 4)
+            if (string.IsNullOrEmpty(p.apellidos) || p.apellidos.Length <= 4)
             {
                 resultado[1] = "Error, los apellidos deben tener al menos 5 letras";
                 errores = errores + 2;
             }
             else
             {
-                if (!p.Apellidos.Contains(" "))
+                if (!p.apellidos.Contains(" "))
                 {
                     resultado[1] = "Error, debe poner dos apellidos separados por un espacio";
                     errores = errores + 2;
                 }
             }
 
-            if (p.FechaNac > hoy)
+            if (p.fechaNac > hoy)
             {
                 resultado[2] = "Error, la fecha de nacimiento debe ser anterior o igual a hoy mismo";
                 errores = errores + 4;
