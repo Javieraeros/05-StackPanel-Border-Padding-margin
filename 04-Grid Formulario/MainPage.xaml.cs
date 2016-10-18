@@ -40,10 +40,10 @@ namespace _04_Grid_Formulario
             apellidos = txtApellido.Text;
             fechaNac = txtFechaNacimiento.Date;
             Persona p = new Persona(nombre, apellidos, fechaNac);
-
+            /*
             p.Nombre = txtNombre.Text;      //Sin esto no funciona, no se por qué
             p.Apellidos = txtApellido.Text;
-            p.FechaNac = txtFechaNacimiento.Date;
+            p.FechaNac = txtFechaNacimiento.Date;*/
 
             errores = VP.validaPersona(p);
             errNombre.Text = errores[0];
