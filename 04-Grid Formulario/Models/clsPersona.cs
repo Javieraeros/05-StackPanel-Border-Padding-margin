@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace _04_Grid_Formulario.Models
 {
-    class Persona
+    public class Persona
     {
 
-        public string nombre { get; set; }
-        public string apellidos { get; set; }
-        public DateTimeOffset fechaNac { get; set; }
+        public string Nombre { get; set; }
+        public string Apellidos { get; set; }
+        public DateTimeOffset FechaNac { get; set; }
 
         public Persona(){
             nombre = "";
